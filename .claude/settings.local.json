@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 *)",
+      "Bash(kicad-cli sch *)",
+      "WebSearch",
+      "WebFetch(domain:www.ti.com)",
+      "WebFetch(domain:datasheet.lcsc.com)",
+      "WebFetch(domain:www.lcsc.com)",
+      "Bash(pdfinfo \"/home/sasa-arch/.claude/projects/-home-sasa-arch-Plocha-mic/33445d5b-f9d0-4a10-b69d-4f712a219df5/tool-results/webfetch-1786272038645-k6uptn.pdf\")",
+      "Bash(pdftotext -layout \"/home/sasa-arch/.claude/projects/-home-sasa-arch-Plocha-mic/33445d5b-f9d0-4a10-b69d-4f712a219df5/tool-results/webfetch-1786272038645-k6uptn.pdf\" -)",
+      "Bash(kicad-cli pcb *)"
+    ]
+  }
+}
