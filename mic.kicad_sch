@@ -4532,10 +4532,10 @@
 		(uuid "412d5b93-9b25-4c63-bd69-66ad445c0754")
 	)
 	(junction
-		(at 104.14 77.47)
+		(at 105.41 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "419c5534-8971-48a3-89ab-fd6bbe6f881d")
+		(uuid "4300f001-3f00-49ea-9f45-9c23fe3cfe81")
 	)
 	(junction
 		(at 246.38 41.91)
@@ -4658,6 +4658,12 @@
 		(uuid "d5a4ea2f-5c32-4fde-809a-d03b610d223a")
 	)
 	(junction
+		(at 99.06 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da3d80a4-f049-487d-8261-3113a146733b")
+	)
+	(junction
 		(at 238.76 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4771,6 +4777,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 77.47) (xy 106.68 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16900b74-2a96-4876-9fb6-b439bc8ca285")
+	)
+	(wire
+		(pts
 			(xy 152.4 101.6) (xy 152.4 129.54)
 		)
 		(stroke
@@ -4798,16 +4814,6 @@
 			(type default)
 		)
 		(uuid "1eae1826-8af6-496a-8639-461e00f54d32")
-	)
-	(wire
-		(pts
-			(xy 179.07 102.87) (xy 179.07 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2194800c-b446-4f9f-a67f-2bf44de87969")
 	)
 	(wire
 		(pts
@@ -4888,16 +4894,6 @@
 			(type default)
 		)
 		(uuid "45976357-ea96-4970-9d5b-d52326b152a7")
-	)
-	(wire
-		(pts
-			(xy 104.14 77.47) (xy 106.68 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c48f749-6eeb-4020-b0b4-5720c6a64010")
 	)
 	(wire
 		(pts
@@ -5081,6 +5077,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 77.47) (xy 105.41 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0cc2ec9-db2e-4e77-a395-df128dfba4a2")
+	)
+	(wire
+		(pts
 			(xy 257.81 91.44) (xy 257.81 72.39)
 		)
 		(stroke
@@ -5258,6 +5264,16 @@
 			(type default)
 		)
 		(uuid "c384d6b6-5d1a-42e3-b81e-9e2c2ecb0334")
+	)
+	(wire
+		(pts
+			(xy 179.07 102.87) (xy 179.07 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6282602-0331-47a4-a820-d09c2e5155c7")
 	)
 	(wire
 		(pts
@@ -5812,6 +5828,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 105.41 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1188107b-2046-401b-8552-ffe960cf1e28")
+		(property "Reference" "C15"
+			(at 107.95 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 107.95 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
+			(at 106.3752 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 105.41 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4ae79a10-7806-462c-b5f2-5c3e0e09fd33")
+		)
+		(pin "1"
+			(uuid "d332795e-7f7c-49c6-861d-822b229c32dc")
+		)
+		(instances
+			(project "mic"
+				(path "/919b0f5d-2298-4bbc-85a8-bc826e29eccc"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 231.14 52.07 270)
 		(unit 1)
@@ -6047,6 +6144,84 @@
 			(project "mic"
 				(path "/919b0f5d-2298-4bbc-85a8-bc826e29eccc"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 105.41 69.85 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17f2c6a7-320c-4b11-b965-13fe64251c83")
+		(property "Reference" "#PWR032"
+			(at 105.41 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 105.41 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 105.41 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "153f9dde-b182-40d3-9337-0e92d2f7b058")
+		)
+		(instances
+			(project "mic"
+				(path "/919b0f5d-2298-4bbc-85a8-bc826e29eccc"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -6449,7 +6624,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 104.14 73.66 0)
+		(at 99.06 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6459,7 +6634,7 @@
 		(dnp no)
 		(uuid "2c4cee66-99e5-48de-a481-2a6b981e43a2")
 		(property "Reference" "R6"
-			(at 104.14 75.184 90)
+			(at 99.06 75.184 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6470,7 +6645,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 106.426 75.438 90)
+			(at 101.346 75.438 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6481,7 +6656,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
-			(at 102.362 73.66 90)
+			(at 97.282 73.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6492,7 +6667,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 73.66 0)
+			(at 99.06 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6503,7 +6678,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 104.14 73.66 0)
+			(at 99.06 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7853,7 +8028,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 96.52 77.47 90)
+		(at 91.44 77.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7864,7 +8039,7 @@
 		(fields_autoplaced yes)
 		(uuid "782524fa-fcf6-4e49-b941-c330dd27a3b8")
 		(property "Reference" "#PWR09"
-			(at 100.33 77.47 0)
+			(at 95.25 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7875,7 +8050,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 92.71 77.4699 90)
+			(at 87.63 77.4699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7886,7 +8061,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 77.47 0)
+			(at 91.44 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7897,7 +8072,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 77.47 0)
+			(at 91.44 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7908,7 +8083,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 96.52 77.47 0)
+			(at 91.44 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8090,7 +8265,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 100.33 77.47 90)
+		(at 95.25 77.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8100,7 +8275,7 @@
 		(dnp no)
 		(uuid "84ab4cdd-ac26-4f2d-a48f-ce55704a6535")
 		(property "Reference" "R5"
-			(at 100.33 77.47 90)
+			(at 95.25 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8110,7 +8285,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 100.33 79.756 90)
+			(at 95.25 79.756 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8120,7 +8295,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
-			(at 100.33 79.248 90)
+			(at 95.25 79.248 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8131,7 +8306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 77.47 0)
+			(at 95.25 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8142,7 +8317,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 100.33 77.47 0)
+			(at 95.25 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8630,7 +8805,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220u"
+		(property "Value" "470u"
 			(at 262.636 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8641,7 +8816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 261.3152 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9340,7 +9515,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 104.14 69.85 180)
+		(at 99.06 69.85 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9351,7 +9526,7 @@
 		(fields_autoplaced yes)
 		(uuid "a32f6943-1226-423c-b9c4-60a89b3f8f20")
 		(property "Reference" "#PWR010"
-			(at 104.14 63.5 0)
+			(at 99.06 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9362,7 +9537,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 104.14 64.77 0)
+			(at 99.06 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9372,7 +9547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 69.85 0)
+			(at 99.06 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9383,7 +9558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 69.85 0)
+			(at 99.06 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9394,7 +9569,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 104.14 69.85 0)
+			(at 99.06 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10125,7 +10300,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10u"
 			(at 225.806 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11082,88 +11257,6 @@
 			(project "mic"
 				(path "/919b0f5d-2298-4bbc-85a8-bc826e29eccc"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 179.07 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbaf5ec3-43c9-4359-9297-f06f6c77b025")
-		(property "Reference" "R9"
-			(at 181.61 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2k2"
-			(at 181.61 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
-			(at 177.292 115.57 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 179.07 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "81ccf0ac-65f3-4745-b112-63d37cd20d4b")
-		)
-		(pin "1"
-			(uuid "10c4b89d-679f-4de0-b8ba-8abe730ecc99")
-		)
-		(instances
-			(project "mic"
-				(path "/919b0f5d-2298-4bbc-85a8-bc826e29eccc"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -12188,7 +12281,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220u"
+		(property "Value" "470u"
 			(at 255.524 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12199,7 +12292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 256.8448 91.44 0)
 			(hide yes)
 			(show_name no)
